@@ -1,0 +1,1 @@
+ C:\\Users\\amara\\FlutterProjects\\fruitadvisor\\.dart_tool\\flutter_build\\536fb91e5a1edf0fa7ef4c207ab8dea0\\native_assets.yaml: 

@@ -1,0 +1,14 @@
+[
+    {
+      "fruit_name": "apple",
+      "name": "Bolo de maçã de liquidificador",
+      "image": "assets/images/recipesImages/recipe1.png",
+      "url": "https://www.tudogostoso.com.br/receita/109535-bolo-de-maca-de-liquidificador-o-melhor-do-mundo.html"
+    },
+    {
+        "fruit_name": "apple",
+        "name": "Torta de maçã",
+        "image": "assets/images/recipesImages/recipe2.png",
+        "url": "https://www.tudogostoso.com.br/receita/11648-torta-de-maca.html"
+    }
+  ]

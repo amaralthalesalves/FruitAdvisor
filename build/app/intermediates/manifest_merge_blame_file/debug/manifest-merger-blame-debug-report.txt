@@ -1,0 +1,263 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fruitadvisor"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\debug\AndroidManifest.xml:6:22-64
+16    <!-- Add permissions outside the <application> tag -->
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:5:5-64
+17-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:5:22-62
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:6:5-80
+18-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:6:22-78
+19    <!--
+20 Required to query activities that can process text, see:
+21         https://developer.android.com/training/package-visibility and
+22         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+23
+24         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+25    -->
+26    <queries>
+26-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:53:5-70:15
+27        <intent>
+27-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:54:9-57:18
+28            <action android:name="android.intent.action.PROCESS_TEXT" />
+28-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:55:13-72
+28-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:55:21-70
+29
+30            <data android:mimeType="text/plain" />
+30-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:56:13-50
+30-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:56:19-48
+31        </intent>
+32        <intent>
+32-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:58:9-61:18
+33            <action android:name="android.intent.action.VIEW" />
+33-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:59:13-65
+33-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:59:21-62
+34
+35            <data android:scheme="https" />
+35-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:56:13-50
+36        </intent>
+37        <intent>
+37-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:62:9-65:18
+38            <action android:name="android.intent.action.DIAL" />
+38-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:63:13-65
+38-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:63:21-62
+39
+40            <data android:scheme="tel" />
+40-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:56:13-50
+41        </intent>
+42        <intent>
+42-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:66:9-69:18
+43            <action android:name="android.intent.action.SEND" />
+43-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:67:13-65
+43-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:67:21-62
+44
+45            <data android:mimeType="*/*" />
+45-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:56:13-50
+45-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:56:19-48
+46        </intent>
+47    </queries>
+48
+49    <permission
+49-->[androidx.core:core:1.13.1] C:\Users\amara\.gradle\caches\transforms-3\eecbb0a03aa7830305e3c36ed549cc29\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+50        android:name="com.example.fruitadvisor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+50-->[androidx.core:core:1.13.1] C:\Users\amara\.gradle\caches\transforms-3\eecbb0a03aa7830305e3c36ed549cc29\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+51        android:protectionLevel="signature" />
+51-->[androidx.core:core:1.13.1] C:\Users\amara\.gradle\caches\transforms-3\eecbb0a03aa7830305e3c36ed549cc29\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+52
+53    <uses-permission android:name="com.example.fruitadvisor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+53-->[androidx.core:core:1.13.1] C:\Users\amara\.gradle\caches\transforms-3\eecbb0a03aa7830305e3c36ed549cc29\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+53-->[androidx.core:core:1.13.1] C:\Users\amara\.gradle\caches\transforms-3\eecbb0a03aa7830305e3c36ed549cc29\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+54
+55    <application
+56        android:name="android.app.Application"
+57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+57-->[androidx.core:core:1.13.1] C:\Users\amara\.gradle\caches\transforms-3\eecbb0a03aa7830305e3c36ed549cc29\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+58        android:debuggable="true"
+59        android:extractNativeLibs="true"
+60        android:icon="@mipmap/ic_launcher"
+61        android:label="FruitAdvisor" >
+62        <activity
+63            android:name="com.example.fruitadvisor.MainActivity"
+64            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+65            android:exported="true"
+66            android:hardwareAccelerated="true"
+67            android:launchMode="singleTop"
+68            android:taskAffinity=""
+69            android:theme="@style/LaunchTheme"
+70            android:windowSoftInputMode="adjustResize" >
+71
+72            <!--
+73                 Specifies an Android theme to apply to this Activity as soon as
+74                 the Android process has started. This theme is visible to the user
+75                 while the Flutter UI initializes. After that, this theme continues
+76                 to determine the Window background behind the Flutter UI.
+77            -->
+78            <meta-data
+79                android:name="io.flutter.embedding.android.NormalTheme"
+80                android:resource="@style/NormalTheme" />
+81
+82            <intent-filter>
+83                <action android:name="android.intent.action.MAIN" />
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+86            </intent-filter>
+87            <intent-filter>
+88                <action android:name="android.intent.action.VIEW" />
+88-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:59:13-65
+88-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:59:21-62
+89
+90                <category android:name="android.intent.category.DEFAULT" />
+91                <category android:name="android.intent.category.BROWSABLE" />
+92
+93                <data android:scheme="http" />
+93-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:56:13-50
+94                <data android:scheme="https" />
+94-->C:\Users\amara\FlutterProjects\fruitadvisor\android\app\src\main\AndroidManifest.xml:56:13-50
+95            </intent-filter>
+96        </activity>
+97        <!--
+98             Don't delete the meta-data below.
+99             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+100        -->
+101        <meta-data
+102            android:name="flutterEmbedding"
+103            android:value="2" />
+104
+105        <provider
+105-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-17:20
+106            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+106-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-82
+107            android:authorities="com.example.fruitadvisor.flutter.image_provider"
+107-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+108            android:exported="false"
+108-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+109            android:grantUriPermissions="true" >
+109-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-47
+110            <meta-data
+110-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-16:75
+111                android:name="android.support.FILE_PROVIDER_PATHS"
+111-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+112                android:resource="@xml/flutter_image_picker_file_paths" />
+112-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-72
+113        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+114        <service
+114-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-31:19
+115            android:name="com.google.android.gms.metadata.ModuleDependencies"
+115-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-78
+116            android:enabled="false"
+116-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-36
+117            android:exported="false" >
+117-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+118            <intent-filter>
+118-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-26:29
+119                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+119-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-94
+119-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-91
+120            </intent-filter>
+121
+122            <meta-data
+122-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-30:36
+123                android:name="photopicker_activity:0:required"
+123-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-63
+124                android:value="" />
+124-->[:image_picker_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-33
+125        </service>
+126
+127        <activity
+127-->[:url_launcher_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
+128            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+128-->[:url_launcher_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+129            android:exported="false"
+129-->[:url_launcher_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+130            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+130-->[:url_launcher_android] C:\Users\amara\FlutterProjects\fruitadvisor\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+131
+132        <uses-library
+132-->[androidx.window:window:1.2.0] C:\Users\amara\.gradle\caches\transforms-3\04f2af0ad93cc7f46a8a2f7c19497bdb\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+133            android:name="androidx.window.extensions"
+133-->[androidx.window:window:1.2.0] C:\Users\amara\.gradle\caches\transforms-3\04f2af0ad93cc7f46a8a2f7c19497bdb\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+134            android:required="false" />
+134-->[androidx.window:window:1.2.0] C:\Users\amara\.gradle\caches\transforms-3\04f2af0ad93cc7f46a8a2f7c19497bdb\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+135        <uses-library
+135-->[androidx.window:window:1.2.0] C:\Users\amara\.gradle\caches\transforms-3\04f2af0ad93cc7f46a8a2f7c19497bdb\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+136            android:name="androidx.window.sidecar"
+136-->[androidx.window:window:1.2.0] C:\Users\amara\.gradle\caches\transforms-3\04f2af0ad93cc7f46a8a2f7c19497bdb\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+137            android:required="false" />
+137-->[androidx.window:window:1.2.0] C:\Users\amara\.gradle\caches\transforms-3\04f2af0ad93cc7f46a8a2f7c19497bdb\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+138
+139        <provider
+139-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\amara\.gradle\caches\transforms-3\670929e6b3c41e5f32fd109982b538b2\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+140            android:name="androidx.startup.InitializationProvider"
+140-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\amara\.gradle\caches\transforms-3\670929e6b3c41e5f32fd109982b538b2\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+141            android:authorities="com.example.fruitadvisor.androidx-startup"
+141-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\amara\.gradle\caches\transforms-3\670929e6b3c41e5f32fd109982b538b2\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+142            android:exported="false" >
+142-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\amara\.gradle\caches\transforms-3\670929e6b3c41e5f32fd109982b538b2\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+143            <meta-data
+143-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\amara\.gradle\caches\transforms-3\670929e6b3c41e5f32fd109982b538b2\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+144                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+144-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\amara\.gradle\caches\transforms-3\670929e6b3c41e5f32fd109982b538b2\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+145                android:value="androidx.startup" />
+145-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\amara\.gradle\caches\transforms-3\670929e6b3c41e5f32fd109982b538b2\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+146            <meta-data
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+147                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+148                android:value="androidx.startup" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+149        </provider>
+150
+151        <receiver
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+152            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+153            android:directBootAware="false"
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+154            android:enabled="true"
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+155            android:exported="true"
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+156            android:permission="android.permission.DUMP" >
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+157            <intent-filter>
+157-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+158                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+159            </intent-filter>
+160            <intent-filter>
+160-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+161                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+162            </intent-filter>
+163            <intent-filter>
+163-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+164                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+164-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+164-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+165            </intent-filter>
+166            <intent-filter>
+166-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+167                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+167-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+167-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\amara\.gradle\caches\transforms-3\230b329090ab6ad820a20c4878958c9d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+168            </intent-filter>
+169        </receiver>
+170    </application>
+171
+172</manifest>
