@@ -10,4 +10,4 @@ Projeto desenvolvido para a matéria PID, CEFET-MG Campus Divinópolis.
 
 - [@MilenaHeringer](https://www.github.com/MilenaHeringer)
 
-- [@MatheusTavares](https://www.github.com/@)
+- [@MatheusTavares](https://github.com/MatheusTavaresDeBessas)
